@@ -14,14 +14,12 @@ int main () {
 
    worth = quarters * 25 + dimes * 10 + nickels * 5;
 
-   cout << "\nYour net worth is " << worth << " cents.";
+   cout << "\nYour net worth is " << worth << " cents." << endl;
 
    if (worth >= 500) {
-      cout << " That's" << (worth % 100 != 0 ? " more than " : " ") << worth / 100 << " dollars!\n"
-           << "Can I have a donation?" << endl;
+      cout << "Can I have a donation?" << endl;
    } else {
-      cout << " That's" << (worth % 100 != 0 ? " less than " : " ") << worth / 100 + 1 << " dollars.\n"
-           << "Perhaps you should seek employment." << endl;
+      cout << "Perhaps you should seek employment." << endl;
    }
 
    return 0;
