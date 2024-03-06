@@ -40,7 +40,7 @@ int main () {
     cout << "Time it took " << players[2].name << " to finish race: ";
     cin >> players[2].time;
     while (players[2].time <= 0) {
-        cout << "Positive numbers only. Bitch. ";
+        cout << "Positive numbers only. ";
         cin >> players[2].time;
     }
 
